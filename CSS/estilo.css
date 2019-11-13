@@ -1,0 +1,176 @@
+/*color rosa: fb3448 RGBA(251,52,72,0)
+  color verde: 00c08a RGBA(0,192,138,0)*/
+
+
+
+header{
+background: #00c08a ;
+color: #fb3448;
+padding: 2px 2px 2px 2px;
+display:flex; 
+/*alinea los elementos de forma responsiva*/
+}
+.menu{
+  display: flex;
+  text-align: right;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.menu a{
+color: #fb3448;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+}
+
+.header ol{
+  display: flex;
+}
+
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  font-family: "raleway", sans-serif;
+  /*tipo de fuente en el cuerpo de la pagina*/
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "nunito", sans-serif;
+  font-weight: normal;
+  /*grueso de las letras (negrita, delgada, nromal)*/
+  font-style: normal;
+  /*cambiar el estilo italica, etc*/
+}
+.hero{
+  background-image: url('../imagenes/gblanca.png');
+  background-color: rgba(31,29,30,.8);
+  background-size: 170px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 350px;
+
+}
+h1{
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: -.5px;
+  text-transform: none;
+  /*cambiar el estilo entre mayusculas minusculas, etc*/
+  text-decoration: none;
+  /*agregarle un subrayado o tachado al texto*/
+  color: white;
+  margin: 10px 50px 20px 20px;
+  padding-top: 15px
+}
+h1 strong{
+  color: #fb3448;
+}
+
+.proyecto{
+  width: 500px;
+  margin: 0px;
+}
+.portafolio{
+  padding-left: 6px;
+  width: 500 px;
+  display: inline-block;
+}
+
+h2{
+  color: #fb3448;
+  font-weight: bold;
+}
+
+.logo{
+  display: inline-block;
+}
+.article-details{
+  width:  500px;
+  height: 200px;
+  border: 5px dashed #00c08a;
+  border-radius: 10px;
+  /*para hacer las esquinas redondeadas*/
+  border-bottom-right-radius: 80px;
+  /*para ajustar el redondeado de una esquina en especifico*/
+  margin: auto;
+  padding: 30px 0px 0px 30px;
+}
+.Mariano{
+  width: 500 px;
+  height: 10px;
+}
+
+.experiencia{
+  margin-bottom: 5px;
+}
+.experiencia h2{
+  padding-left: 6px;
+}
+
+.contacto{
+  background-color: #00c08a ;
+  display: flex;
+justify-content: space-evenly;
+padding-left: 6px;
+align-items: center;
+
+}
+
+.link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.link.twitter{
+  background-image: url(../imagenes/twitter.png);
+  background-size: 50px 50px;
+  
+}
+
+.link.fb{
+  background-image: url(../imagenes/facebook.png);
+  background-size: 50px 50px;
+
+}
+
+.link.instagram{
+  background-image: url(../imagenes/instagram.png);
+  background-size: 50px 50px;
+
+}
+
+.footer{
+  background-color: #00c08a;
+  color: #fb3448;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.emailbox{
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button{
+  display: block;
+  background: transparent;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.website{
+  margin-top: 20px;
+}
