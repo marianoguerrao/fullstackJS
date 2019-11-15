@@ -5,33 +5,28 @@
 
 header{
 background: #00c08a ;
-color: #fb3448;
-padding: 2px 2px 2px 2px;
-display:flex; 
+color: #fb3445;
+
 /*alinea los elementos de forma responsiva*/
 }
 .menu{
   display: flex;
-  text-align: right;
-  align-items: flex-end;
+  flex-direction: row;
   justify-content: flex-end;
 }
-.menu a{
-color: #fb3448;
-text-decoration: none;
-display: flex;
-flex-direction: row;
-}
 
-.header ol{
-  display: flex;
-}
-
-ul,ol{
-  margin: 0;
-  padding: 0;
+ul,ol,li{
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
+
+.link{
+  padding: 2px;
+    width: 50px;
+    height: 50px;
+  }
+
 body{
   font-family: "raleway", sans-serif;
   /*tipo de fuente en el cuerpo de la pagina*/
@@ -126,11 +121,7 @@ align-items: center;
 
 }
 
-.link{
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-}
+
 
 .link.twitter{
   background-image: url(../imagenes/twitter.png);
