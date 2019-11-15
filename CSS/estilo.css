@@ -6,6 +6,7 @@
 header{
 background: #00c08a ;
 color: #fb3445;
+height: 30px;
 
 /*alinea los elementos de forma responsiva*/
 }
@@ -89,6 +90,7 @@ h2{
 .logo{
   display: inline-block;
 }
+
 .article-details{
   width:  500px;
   height: 200px;
@@ -118,25 +120,18 @@ h2{
 justify-content: space-evenly;
 padding-left: 6px;
 align-items: center;
-
 }
 
 .link.twitter{
   background-image: url(../imagenes/twitter.png);
-  width: 50px;
-  
 }
 
 .link.fb{
   background-image: url(../imagenes/facebook.png);
-
-
 }
 
 .link.instagram{
   background-image: url(../imagenes/instagram.png);
-
-
 }
 
 .link.instagram, .link.twitter, .link.fb{
@@ -170,10 +165,10 @@ align-items: center;
 }
 
 .caja-contacto{
-  margin-right: 150px;
+  margin-right: 450px;
 }
 
 .redes{
-  margin-left: 150px;
+  margin-left: 250px;
 
 }
