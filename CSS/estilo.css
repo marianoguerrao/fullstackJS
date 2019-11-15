@@ -121,24 +121,27 @@ align-items: center;
 
 }
 
-
-
 .link.twitter{
   background-image: url(../imagenes/twitter.png);
-  background-size: 50px 50px;
+  width: 50px;
   
 }
 
 .link.fb{
   background-image: url(../imagenes/facebook.png);
-  background-size: 50px 50px;
+
 
 }
 
 .link.instagram{
   background-image: url(../imagenes/instagram.png);
-  background-size: 50px 50px;
 
+
+}
+
+.link.instagram, .link.twitter, .link.fb{
+  display: inline-block;
+  background-size: 50px;
 }
 
 .footer{
@@ -167,10 +170,10 @@ align-items: center;
 }
 
 .caja-contacto{
-  margin-right: 350px;
+  margin-right: 150px;
 }
 
 .redes{
-  margin-left: 300px;
+  margin-left: 150px;
 
 }
